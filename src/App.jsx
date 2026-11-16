@@ -1,5 +1,6 @@
 import "./App.css";
 import AppRouter from "./routers/AppRouter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1 className="title">MoviesW4tch</h1>
       </header>
       <AppRouter />
+      <Footer />
     </div>
   );
 }
