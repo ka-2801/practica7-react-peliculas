@@ -1,0 +1,19 @@
+.movie-card {
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+.movie-img {
+  width: 100%;
+  display: block;
+}
+.movie-title {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}

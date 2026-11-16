@@ -4,3 +4,9 @@ body {
   background: #111;
   color: #fff;
 }
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
