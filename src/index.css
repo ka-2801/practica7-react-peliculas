@@ -1,12 +1,31 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111;
-  color: #fff;
+:root {
+  --bg: #0f0224;
+  --card: #34195e;
+  --purple: #8b5cf6;
+  --lilac: #c4b5fd;
+  --white: #ffffff;
+  --black: #0b0512;
+  --yellow: #fde68a;
 }
 
-.title {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(ellipse at 50% 105%, rgba(217, 70, 239, 0.55) 0%, transparent 60%),
+    linear-gradient(180deg, #0f0224 0%, #2a0a5e 45%, #6d1aa8 80%, #9d1fc4 100%);
 }

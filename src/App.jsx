@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <header>
+      <header className="header">
         <h1 className="title">MoviesW4tch</h1>
       </header>
       <AppRouter />
